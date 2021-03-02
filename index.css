@@ -1,8 +1,9 @@
  img {
    border-color: teal;
-   border-width: 5px;
+   border-width: auto;
    border-style: solid;
    height: auto;
+   width: auto;
  }
 
  p {
@@ -24,5 +25,5 @@
    display: block;
    margin-left: auto;
    margin-right: auto;
-   width: 50%;
+   width: auto;
  }
