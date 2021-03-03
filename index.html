@@ -12,27 +12,40 @@
 
 <body>
 
+  <div class="about-section">
+    <h1>About Us Page</h1>
+    <p>We specialize in helping people with anxiety, <br>before their anxiety becomes too much and end up leading to
+      depression.</p>
+    <p>We care about your health. Working together we can build a better new generation.</p>
+  </div>
+
   <style>
 
   </style>
-
-  <nav class="navbar navbar-inverse">
-    <a href"#home" class="Okuhle-button Okuhle-bar-item">Home</a>
-    <a href="#contact" class="Okuhle-button Okuhle-bar">Contact: email:
-      lindokuhlea38@gmail.com</a> </nav>
+  <div class="topnav" id="myTopnav">
+    <a href="#home" class="active">Home</a>
+    <a href="#news">News</a>
+    <a href="#contact ">Contact</a>
+    <a href="tel:081-324-0479">click to call</a>
+    <a href="mailto:lindokuhlea38@gmail.com"> click to send an email </a>
+    <a href="#about">About</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
 
   <figure>
-    <img src="imgs/Lindokuhle.jpg" alt="Picture of the author" class="center">
-
+    <div class="card">
+      <img src="imgs/Lindokuhle.jpg" alt="Lindokuhle" class="center">
+    </div>
     <br>
-    <figcaption>
-      Lindokuhle talks about different ways of dealing with Anxiety.
-    </figcaption>
+
+    <p style="font-size: small;">Lindokuhle talks about different ways of dealing with Anxiety.</p>
+
 
   </figure>
 
-
-  <h1 style="color: teal">How to get over Anxiety</h1>
+  <h1 style="color: black">How to get over Anxiety</h1>
 
   <p class="opacity"><b>What Is Anxiety?<br></b>Intense, excessive and persistent worry and fear about everyday
     situations. Fast heart
@@ -106,14 +119,18 @@
     chemistry,
     prevent episodes of anxiety, and ward off the most severe symptoms of the disorder.<br> </p>
 
-  <footer>
-    <a href="#"><i class="fa fa-facebook-official"></i></a>
-    <a href="#"><i class="fa fa-twitter"></i></a>
-    <p class="okuhle-medium"> sources <a href="https://www.file:///home/tcg-pc1/workspace/OkuhleM/index.html#contact"
-        target="_blank">OkuhleM</a>
-    </p> tar
-  </footer>
 
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
 </body>
 
 </html>
