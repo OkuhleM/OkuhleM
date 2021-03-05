@@ -44,7 +44,8 @@
  }
 
  body {
-   background-color: #EEA47FFF;
+   background-color: url("imgs/homeoffice.jpeg"); 
+   
  }
 
  .center {
