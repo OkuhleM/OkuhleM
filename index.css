@@ -1,7 +1,7 @@
  .about-section {
    padding: 25px;
    text-align: center;
-   background-color: #f1f5fc;
+   background-color: teal;
    color: black;
  }
 
@@ -12,7 +12,7 @@
    z-index: 1;
    top: 0;
    left: 0;
-   background-color: grey;
+   background-color: black;
    overflow-x: hidden;
    transition: 0.5s;
    padding-top: 60px;
@@ -22,13 +22,14 @@
    padding: 8px 8px 8px 32px;
    text-decoration: none;
    font-size: 25px;
-   color: #818181;
+   color: black;
    display: block;
    transition: 0.3s;
+   text-decoration: none;
  }
 
  .sidenav a:hover {
-   color: #f1f1f1;
+   color: darkseagreen;
  }
 
  .sidenav .closebtn {
@@ -44,8 +45,7 @@
  }
 
  body {
-   background-color: url("imgs/homeoffice.jpeg"); 
-   
+   background-color: url("imgs/homeoffice.jpeg");
  }
 
  .center {
