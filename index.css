@@ -34,7 +34,8 @@
 
  body {
    background-color: url("imgs/homeoffice.jpeg");
-   font-family: monospace;
+   font-family: serif;
+   font-size: 22px;
  }
 
  .center {
