@@ -34,7 +34,7 @@
 
  body {
    background-color: peachpuff;
-   font-family: serif;
+   font-family: Arial, sans-serif;
    font-size: 22px;
  }
 
@@ -42,6 +42,12 @@
    display: block;
    margin-left: auto;
    margin-right: auto;
-   width: 100px;
-   height: 100px;
+   width: 500px;
+   height: 500px;
+ }
+
+ .card {
+   background-color: #f1f1f1;
+   padding: 20px;
+   text-align: center;
  }
