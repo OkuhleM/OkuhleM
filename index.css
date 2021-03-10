@@ -27,13 +27,14 @@
  }
 
  h1 {
-   text-align: center;
+   line-height: 1rem;
  }
 
  body {
-   background-color: peachpuff;
+   background-color: #07374a;
    font-family: Arial, sans-serif;
    font-size: 19px;
+   color: #25b79f;
  }
 
  .center {
