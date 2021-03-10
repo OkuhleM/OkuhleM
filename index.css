@@ -1,10 +1,6 @@
- #about-section {
+ .about-section {
    padding: 98px;
    text-align: center;
-   background-color: #333333;
-   color: white;
-   margin: 200px;
-   display: table;
  }
 
  .topnav {
@@ -52,16 +48,4 @@
    background-color: #f1f1f1;
    padding: 20px;
    text-align: center;
- }
-
- .button {
-   border: none;
-   outline: 0;
-   display: inline-block;
-   margin: 100px;
-   color: white;
-   background-color: #000;
-   text-align: center;
-   cursor: pointer;
-   width: 100%;
  }
