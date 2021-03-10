@@ -1,8 +1,10 @@
  .about-section {
-   padding: 25px;
+   padding: 98px;
    text-align: center;
-   background-color: pink;
-   color: black;
+   background-color: #474e5d;
+   color: white;
+   margin: 200px;
+   display: table;
  }
 
  .topnav {
@@ -42,8 +44,8 @@
    display: block;
    margin-left: auto;
    margin-right: auto;
-   width: 75%;
-   height: 75%;
+   width: 500px;
+   height: 500px;
  }
 
  .card {
