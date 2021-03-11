@@ -3,29 +3,6 @@
    text-align: center;
  }
 
- .topnav {
-   overflow: hidden;
-   background-color: #333;
- }
-
- .topnav a {
-   float: left;
-   color: #f2f2f2;
-   text-align: center;
-   padding: 14px 16px;
-   text-decoration: none;
-   font-size: 17px;
- }
-
- .topnav a:hover {
-   background-color: #ddd;
-   color: black;
- }
-
- .topnav a.active {
-   background-color: black;
- }
-
  h1 {
    line-height: 1rem;
  }
@@ -50,3 +27,174 @@
    padding: 20px;
    text-align: center;
  }
+
+ .footer {
+   background-color: grey;
+   color: black;
+   padding: 25px;
+   margin: auto;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   text-align: center;
+ }
+
+ .navbar {
+   background-color: rgba(255, 255, 255, .90)
+ }
+
+ .navbar-toggle {
+   float: left;
+   margin-left: 15px
+ }
+
+ .navbar-default .navbar-nav>li>a {
+   font-weight: bold;
+   color: #252525;
+ }
+
+ a:hover {
+   color: #252525;
+ }
+
+ h1, h4 {
+   margin: 0;
+   font-family: 'Montserrat', sans-serif;
+ }
+
+ h4 {}
+
+ #logo {
+   background-color: rgba(255, 255, 255, .93);
+   border-radius: 5px;
+   color: #252525;
+   width: 350px;
+   padding: 35px 0;
+ }
+
+ .social {
+   padding-top: 35px;
+   color: rgb(238, 135, 154);
+ }
+
+ .social li {
+   display: inline;
+   padding: 20px
+ }
+
+ .container {
+   width: 100%;
+   margin: 0;
+   padding: 0;
+ }
+
+ .header {
+   margin: 0;
+   padding-top: 200px;
+   width: 100%;
+   height: 600px;
+   background: url("https://res.cloudinary.com/dck40m3wf/image/upload/v1455459914/Portfolio/fancy-floral-pattern-384.jpg") repeat;
+ }
+
+ .about-me {
+   padding: 75px 20px;
+   background-color: rgba(232, 117, 136, .75);
+   font-size: 1.15em;
+ }
+
+ .about-me img {
+   max-height: 250px;
+   border-radius: 50%;
+   border: 7px solid #252525;
+ }
+
+ #bio {
+   padding: 20px;
+ }
+
+ .content {
+   max-width: 900px;
+   margin: 0 auto;
+ }
+
+ .portfolio {}
+
+ .portfolio img {
+   border: 5px solid rgb(232, 117, 136);
+   display: block;
+   margin: 0 auto;
+   padding: 0;
+ }
+
+ .portfolio .row {
+   margin: 75px 20px
+ }
+
+ .portfolio h2 {
+   margin-top: 75px;
+ }
+
+ .portfolio h3 {
+   padding-top: 40px;
+   color: rgb(232, 117, 136);
+ }
+
+ .portfolio .col-sm-6 {
+   padding: 0;
+ }
+
+ .contact {
+   padding: 2px 20px;
+   background: url("https://res.cloudinary.com/dck40m3wf/image/upload/v1455475485/Portfolio/tweed.png");
+ }
+
+ .contact-links li, .contact h4 {
+   color: white;
+ }
+
+ .contact-links li {
+   font-size: 1.25em;
+ }
+
+ .contact-links i, .contact h1 {
+   color: rgb(232, 117, 136);
+ }
+
+ #have-chat {
+   padding-top: 75px
+ }
+
+ footer {
+   text-align: center;
+   color: #252525;
+   height: 140px;
+   background: rgb(232, 117, 136);
+   padding-top: 50px
+ }
+
+ #footer-links li {
+   display: inline;
+   padding: 0px 40px;
+   border-right: 1px solid white;
+ }
+
+ #footer-links li:nth-child(4) {
+   border-right: none;
+ }
+
+ @media only screen and (max-width: 770px) {
+   .about-me img {
+     display: block;
+     margin: 0 auto;
+   }
+   .portfolio img {
+     max-width: 150px;
+     margin-top: 170px;
+   }
+   #have-chat {
+     padding-top: 20px;
+   }
+   .contact-links {
+     padding-top: 35px;
+   }
