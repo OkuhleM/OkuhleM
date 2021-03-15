@@ -1,9 +1,12 @@
  .about-section {
-   padding: 98px;
    margin: auto;
    text-align: center;
    border-style: solid;
    border-color: black;
+   block-size: auto;
+   padding: 75px 20px;
+   background-color: rgba(232, 117, 136, .75);
+   font-size: 1.15em;
  }
 
  h1 {
@@ -15,6 +18,14 @@
    font-family: Arial, sans-serif;
    font-size: 19px;
    color: #25b79f;
+ }
+
+ .header {
+   margin: 0;
+   padding-top: 200px;
+   width: 100%;
+   height: 600px;
+   background: url("imgs/homeoffice.jpeg") repeat;
  }
 
  .center {
@@ -44,7 +55,35 @@
  }
 
  .Lindo {
-   height: 500px;
-   width: 600px;
+   height: 200px;
+   width: 300px;
    align-items: center;
+ }
+
+ .social {
+   padding-top: 35px;
+   color: rgb(238, 135, 154);
+   display: inline;
+   padding: 20px
+ }
+
+ .navbar-toggle {
+   float: left;
+   margin-left: 15px
+ }
+
+ #footer-links li {
+   padding: 0 15px;
+   display: inline;
+   padding: 0px 40px;
+   border-right: 1px solid white;
+ }
+
+ .contact {
+   color: rgb(232, 117, 136);
+   padding: 2px 20px;
+ }
+
+ .contact-links {
+   padding-top: 35px;
  }
