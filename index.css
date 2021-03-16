@@ -1,7 +1,8 @@
 .Header {
   padding: auto;
   margin: auto;
-  box-sizing: border-box;
+  border-block: solid;
+  text-align: center;
 }
 
 body {
@@ -11,16 +12,27 @@ body {
   font-size: inherit;
 }
 
+img {
+  height: 50vw;
+  width: 50vw;
+  align-content: center;
+}
+
 .navbar {
-  padding-left: 16;
+  padding-left: 16px;
   background-color: grey;
+  position: relative;
 }
 
 .footer {
+  background-color: grey;
+  color: black;
   padding: auto;
   margin: auto;
+  font-family: serif;
+  font-size: large;
   position: fixed;
   left: 0;
   bottom: 0;
-  width: 100;
+  width: 100%;
 }
