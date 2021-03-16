@@ -13,20 +13,26 @@ body {
 }
 
 img {
-  height: 50vw;
-  width: 50vw;
-  align-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .navbar {
-  padding-left: 16px;
-  background-color: grey;
+  padding-left: 12px;
+  background-color: #555;
   position: relative;
+  float: left;
+  overflow: auto;
+  width: 100%;
+  text-decoration: none;
+  font-size: 17px;
 }
 
 .footer {
-  background-color: grey;
-  color: black;
+  background-color: black;
+  color: whitesmoke;
   padding: auto;
   margin: auto;
   font-family: serif;
