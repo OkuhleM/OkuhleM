@@ -17,7 +17,7 @@ defined as follows: GitHub Pages is a static site hosting service that takes HTM
 I personally would defined it as a site which takes files from a reposistory, processes them and publishes them.
 I code using Visual Studio Code which supports a lot of programming language.
 
-## Getting stated with Github pages
+## Getting started with Github pages
 
 The first thing I did when I was firstly introduced to GitHub after I had set up my
 GitHub account was to create a repository and gave it a name.
