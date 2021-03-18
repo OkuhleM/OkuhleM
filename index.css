@@ -1,7 +1,9 @@
 .Header {
   padding: auto;
   margin: auto;
-  border-block: solid;
+  border-color: black;
+  border-width: 5px;
+  border-top-style: solid;
   text-align: center;
 }
 
