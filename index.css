@@ -11,7 +11,7 @@ body {
   background-color: #073749;
   color: #25b79f;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: inherit;
+  font-size: 19em;
 }
 
 img {
@@ -65,7 +65,7 @@ body, html {
   padding: auto;
   margin: auto;
   font-family: serif;
-  font-size: large;
+  font-size: 15em;
   position: fixed;
   left: 0;
   bottom: 0;
