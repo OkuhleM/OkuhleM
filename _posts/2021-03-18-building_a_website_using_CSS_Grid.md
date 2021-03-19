@@ -1,7 +1,7 @@
 ---
 Layout:
 Title:	"Daily Report"
-Date:	2021-03-17
+Date:	2021-03-18
 Categories:
 
 ---
