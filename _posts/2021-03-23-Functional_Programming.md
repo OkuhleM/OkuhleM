@@ -7,7 +7,7 @@ Categories:
 ---
 
 # Introduction
-I have just started a new top called Functional Programming.
+I have just started a new topic called Functional Programming.
 
 ## Functional Programming
 
