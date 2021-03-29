@@ -9,6 +9,7 @@ Categories:
 # Introduction
 I have just started a new topic called Functional Programming.
 
+# Body
 ## Functional Programming
 
 Functional programming is a style of programming where solutions are simple,

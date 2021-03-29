@@ -10,6 +10,7 @@ Categories:
 
 today I've started a new topic called basic data structures.
 
+# Body
 ## basic data structures
 
 The fundamental feature of any data structure is, the ability to not only store data, but to be able to retrieve that data on command. 

@@ -7,6 +7,9 @@ Categories:
 ---
 
 # Introduction
+I will share the little knowledge I have regarding the strings.
+
+# Body
 
 ## What is a string?
 

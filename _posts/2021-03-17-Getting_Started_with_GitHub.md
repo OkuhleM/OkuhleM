@@ -10,6 +10,8 @@ Categories:
 
 I will share the knowledge I have thus far regarding GitHub pages as well as blogpost.
 
+# Body
+
 ## What are GitHub pages?
 
 so when I checked the definition of GitHub pages on the internet they 
