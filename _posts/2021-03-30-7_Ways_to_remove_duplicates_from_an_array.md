@@ -132,4 +132,4 @@ Some times it's a requirement to remove duplicate objects from an array of objec
 
 # Conclusion.
 
-these methods all worked when I executed my program
+these methods all worked when I executed my program.
