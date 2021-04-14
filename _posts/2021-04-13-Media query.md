@@ -7,7 +7,9 @@ Categories:
 ---
 
 # Introduction
-
+ The practical  The practical implication of the top-down execution is that if
+you have an error at the top, nothing below it will be executed by the browser. implication of the top-down execution is that if
+you have an error at the top, nothing below it will be executed by the browser. 
 today as I was doing freecodecamp projects I came across a project that required me to use media query
 
 # Body
