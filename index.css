@@ -3,16 +3,13 @@
   border-width: 5px;
   border-top-style: solid;
   text-align: center;
-  
 }
 
 body {
-  /*background-color: #073749;*/
-  color: black;
+  background-color: #073749;
+  color: cyan;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 19px;
-  background-image: url('imgs/homeoffice.jpeg');
-  background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   margin: auto;
@@ -20,15 +17,15 @@ body {
   font-size: 3vh;
 }
 
-/* img {
+img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 10000px;
-  height: 650px;
+  width: 35%;
+  height: 380%;
   max-width: 100%;
-  background-image: url("imgs/workspace.jpg");
-} */
+  border-radius: 5rem;
+}
 
 body, html {
   height: 100%;
@@ -37,20 +34,20 @@ body, html {
 
 .navbar {
   padding: auto;
-  background-color: violet;
-  position: relative;
+  background-color: white;
+  position: fixed;
   float: left;
   overflow: hidden;
   width: 100%;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 1, 8rem;
 }
 
 .topnav a {
   float: left;
-  color: #f2f2f2;
+  color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 24px 16px;
   text-decoration: none;
   font-size: 17px;
 }
