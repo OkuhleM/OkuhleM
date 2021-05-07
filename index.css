@@ -33,24 +33,10 @@ body, html {
   margin: 0;
 }
 
-.navbar {
-  text-decoration: none;
-  position: absolute;
-  padding: -90px;
-}
 
-.navbar a {
-  text-decoration: none;
-  color: red;
-}
 
-.navbar a:hover {
-  background-color: rgb(170, 49, 69);
-  color: rgb(243, 232, 232);
-}
 
-.topnav a.active {
-  text-decoration: none;
-  background-color: #4e4caf;
-  color: white;
-}
+
+
+
+
