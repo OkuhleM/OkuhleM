@@ -1,43 +1,80 @@
-#About {
-  padding: 20px;
-  color: rgba(11, 14, 3, 0.856);
+.nav-bar {
+  font-size: 2rem;
 }
 
 body {
-  background-color: #073749;
-  color: black;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 19px;
-  background-attachment: fixed;
-  background-size: cover;
-  margin: auto;
-  padding: auto;
-  font-size: 3vh;
-  background-image: url('imgs/Vase-Flowers-Arrangement-Art-Artwork-Colorful-142877.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  text-decoration: none;
+  background-color: black;
+  color: white;
 }
 
-.feature-img {
-  height: 70%;
+p {
+  text-align: center;
+}
+header {
+  margin: 0.5em 0;
+  font-size: 0.9em;
+  color: aqua;
+}
+
+.banner h2,h3{
+  position: relative;
+  color: grey;
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.banner ::before h2,h3{
+  content: attr(data-text);
   position: absolute;
-  bottom: 0;
-  right: 150px;
-  top: 120px;
-  border: 10px solid turquoise;
+  overflow: hidden;
+  max-width: 10em;
+  white-space: nowrap;
+  color: #fff;
+  animation: loding 8s linear;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: purple;
+  color: blue;
+}
+
+@keyframes loading {
+  0% {
+    max-width: 0;
+  }
+}
+.infor-section {
+  /* background: url(/imgs/Lindokuhle.png); */
+  background-repeat: no-repeat 0px 0px;
+  background-size: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  height: 100vw;
+  position: relative;
+  z-index: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  text-align: right;
+  justify-content: right;
+  position: absolute;
+  right: 40px;
+  top: -100px;
+  bottom: 1rem;
+  /* width: 100px;
+  height: 120px; */
+  border: 3px solid blue;
 }
 
 body, html {
   height: 100%;
   margin: 0;
 }
-
-
-
-
-
-
-
-
