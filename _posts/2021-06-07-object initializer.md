@@ -1,7 +1,7 @@
 ---
 Layout:
 Title:	"Object Initializer"
-Date:	2021-06-06
+Date:	2021-06-07
 Categories:
 
 ---
