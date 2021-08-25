@@ -1,80 +1,125 @@
 .nav-bar {
-  font-size: 2rem;
-}
-
-body {
-  background-color: black;
+  background-color: #2B2D2F;
+  width: 100%;
   color: white;
+  padding: 25px;
+  margin: auto;
+  /* position: fixed; */
 }
 
-p {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h2 {
   text-align: center;
+  font-family: Bungee Inline;
 }
+
 header {
-  margin: 0.5em 0;
-  font-size: 0.9em;
-  color: aqua;
-}
-
-.banner h2,h3{
-  position: relative;
-  color: grey;
-  font-size: 4rem;
-  font-weight: 700;
-}
-
-.banner ::before h2,h3{
-  content: attr(data-text);
-  position: absolute;
-  overflow: hidden;
-  max-width: 10em;
-  white-space: nowrap;
+  text-align: center;
+  font-family: Abril fatface;
   color: #fff;
-  animation: loding 8s linear;
+  background-attachment: scroll;
+  background-image: url(https://unsplash.imgix.net/uploads%2F14115408840644deb16b0%2F2dc933e3?q=75&fm=jpg&auto=format&s=7f43646e4d26049c6c39890afb2e5ced);
+  background-position: center center;
+  background-repeat: none;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  font-size: 6rem;
 }
+
 a {
   text-decoration: none;
-  color: white;
+  letter-spacing: normal;
+  line-height: 1.3em;
+  margin-right: 100px;
 }
 
 a:hover {
-  text-decoration: purple;
-  color: blue;
+  text-decoration: none;
+  color: rgb(56, 86, 219);
 }
 
-@keyframes loading {
-  0% {
-    max-width: 0;
-  }
-}
-.infor-section {
-  /* background: url(/imgs/Lindokuhle.png); */
-  background-repeat: no-repeat 0px 0px;
-  background-size: auto;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  -ms-background-size: cover;
-  height: 100vw;
-  position: relative;
-  z-index: 0;
+#About {
+  font-size: 25px;
+  text-align: center;
+  color: rgb(7, 7, 5);
+  padding: 22rem;
+  background-image: url('/imgs/Lindokuhle.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-  text-align: right;
-  justify-content: right;
-  position: absolute;
-  right: 40px;
-  top: -100px;
-  bottom: 1rem;
-  /* width: 100px;
-  height: 120px; */
-  border: 3px solid blue;
+p {
+  margin-left: 5rem;
+  padding-top: 1rem;
+  top: 50px;
+  right: 1100px;
 }
 
-body, html {
-  height: 100%;
-  margin: 0;
+.about {
+  margin-top: -16rem;
+}
+
+.footer {
+  background-color: grey;
+  color: black;
+  padding: auto;
+  margin: auto;
+  font-family: serif;
+  font-size: large;
+  /* position: fixed; */
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+a {
+  color: white;
+  font-size: 15px;
+}
+
+.skills {
+  margin-left: 33rem;
+  margin-right: 14rem;
+  text-align: center;
+  justify-content: center;
+  display: block;
+  padding: auto;
+}
+
+input[type=text], textarea {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  margin-left: 5rem;
+  padding-top: 1rem;
+}
+
+input[type=submit] {
+  background-color: rgba(226, 220, 220, 0.815);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 5rem;
+  padding-top: 1rem;
+}
+
+#Contact {
+  background-color: black;
+  padding: 2rem 4rem;
+  margin: auto;
+  color: white;
 }

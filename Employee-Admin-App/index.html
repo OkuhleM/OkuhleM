@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Employee Admin App</title>
+</head>
+
+<body>
+  <header>
+    <h1>Admin App</h1>
+  </header>
+
+  <div class="container">
+
+    <div class="tab">
+      <label for="name">Name</label>
+      <input type="text" name="name" id="names" required><br><br>
+      <label for="surname">Surname</label>
+      <input type="text" name="surname" id="surnames" required><br><br>
+      <label for="Position">Position</label>
+      <input type="text" id="position" required><br><br>
+      <label for="number">ID Number</label>
+      <input type="number" id="number" required><br><br>
+      <label for="salary">Salary</label>
+      <input type="number" id="salary" value="0.00"><br><br>
+      <label for="txt_hours">Hours Per Week:</label>
+      <input type="number" name="hours" id="txt_hours" value="0" />
+
+      <button onclick="addHtmlTableRow()">Add</button>
+      <button onclick="editHtmlSelectedRows()">Edit</button>
+      <button onclick="removeSelectedRow()">Remove</button>
+      <button value="calculate" onclick="calcSalary(this)">Calculate</button>
+      
+    </div>
+    <br><br><br>
+
+    <div class="tab tab-1">
+
+      <table id="table">
+        <thead>
+          <th>Name</th>
+          <th>Surname</th>
+          <th>ID Number</th>
+          <th>Position</th>
+          <th>Salary</th>
+          <th>Annual Average</th>
+
+        </thead>
+
+       
+
+      </table>
+
+
+    </div>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
