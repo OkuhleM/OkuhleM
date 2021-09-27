@@ -7,7 +7,7 @@ Categories:
 ---
 
 # Introduction
- today I dealt withn code wars and freecode camp
+today I dealt withn code wars and freecode camp
 
 # Body
 
