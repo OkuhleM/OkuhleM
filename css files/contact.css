@@ -1,0 +1,64 @@
+a {
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+  }
+
+  a {
+    text-decoration: none;
+    /* letter-spacing: normal; */
+    line-height: 1.3em;
+    margin-right: 100px;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color: rgb(238, 50, 238);
+    
+  }
+
+  .nav-bar {
+    position: sticky;
+    display: flex;
+    justify-content: right;
+    z-index: 1;
+    padding: 1.5rem;
+    background-color: rgb(51, 46, 46);
+    overflow: hidden;
+
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+
+body{
+  background-color: rgb(3, 61, 68);
+
+}
+
+.address{
+    margin-left: 4rem;
+    margin-top: 3rem;
+}
+
+.email{
+    margin-left: 24rem;
+    margin-top: -7.0rem;
+}
+
+.social-links{
+    margin-left: 15rem;
+    margin-top: 5rem;
+}
+
+.contact{
+  margin-left: 50rem;
+}
+
+.far, .fas {
+ margin-top: 5rem;
+ 
+}

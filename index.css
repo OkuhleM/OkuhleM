@@ -1,10 +1,4 @@
 .nav-bar {
-  /* background-color: #2B2D2F;
-  width: 100%;
-  color: white;
-  padding: 25px;
-  margin: auto;
-  float: right; */
   position: sticky;
   top: 0;
   left: 0;
@@ -29,6 +23,9 @@ h1{
   font-family: 'Arial Narrow', Arial, sans-serif;
   
 }
+h3{
+  color: yellow;
+}
 h2 {
   text-align: center;
   font-family: Bungee Inline;
@@ -38,6 +35,7 @@ header {
   background-image: url('./css_grid_or_flexbox/imgs/beautiful-night-lake-with-full-moon-rising-starry-sky_116220-124.jpg');
   color: white;
   height: 50rem;
+  background-size: cover;
 }
 
 a {
@@ -56,8 +54,6 @@ a:hover {
   text-align: center;
   color: white;
   background-color: black;
-  padding: 4rem;
-  position: fixed;
   width: 100%;
 }
 
@@ -70,14 +66,7 @@ a {
   font-size: 15px;
 }
 
-.skills {
-  margin-left: 33rem;
-  margin-right: 14rem;
-  text-align: center;
-  justify-content: center;
-  display: block;
-  padding: auto;
-}
+
 
 input[type=text], textarea {
   width: 50%;
@@ -94,5 +83,6 @@ input[type=text], textarea {
 
 i:hover{
   text-decoration: none;
-  color: rgb(56, 86, 219);
+  background-color: rgb(56, 86, 219);
 }
+
