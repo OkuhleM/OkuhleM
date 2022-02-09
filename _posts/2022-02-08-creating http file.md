@@ -17,6 +17,7 @@ understanding this blogpost.
 
 - a Server is a computer or computer program which manages access to a contralized resource or serveice
 in a network.
+- a server helps by maintaining access.
 Every website we visit is ran on HTTP server.
  
  First we need to learn about what is OSI.
