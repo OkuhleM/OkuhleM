@@ -7,8 +7,8 @@
   align-items: center;
   justify-content: right;
   padding: 1.5rem 3.5rem;
-  background-color: rgb(51, 46, 46);
-  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  background-color: pink;
+  /* box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1); */
   color: black;
 }
 
@@ -17,25 +17,22 @@
   padding: 0;
   box-sizing: border-box;
 }
-h1{
-  
-  text-align: center;
-  font-family: 'Arial Narrow', Arial, sans-serif;
-  
-}
+
 h3{
   color: yellow;
+  font-family: "pacifico", cursive;
+  font-size: 2rem;
 }
 h2 {
   text-align: center;
   font-family: Bungee Inline;
 }
 
-header {
-  background-image: url('./css_grid_or_flexbox/imgs/beautiful-night-lake-with-full-moon-rising-starry-sky_116220-124.jpg');
-  color: white;
-  height: 50rem;
-  background-size: cover;
+.header,p{
+  font-size: 2rem;
+  margin-top: 6rem;
+  margin-left: 19rem;
+  font-family: "Patrick Hand";
 }
 
 a {
@@ -43,46 +40,42 @@ a {
   letter-spacing: normal;
   line-height: 1.3em;
   margin-right: 100px;
+  color: black;
+  font-size: 1,8rem;
 }
 
 a:hover {
   text-decoration: none;
-  color: rgb(56, 86, 219);
+  background-color: rgb(224, 227, 241);
+  padding: 1rem;
+  border-radius: 13px;
+
 }
 
-.footer {
+body{
+  background-color: grey;
+  background-image: url('https://thumbs.dreamstime.com/b/home-office-desk-table-notepad-flower-white-background-home-office-desk-table-notepad-flower-white-background-flat-108329317.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer{
+  background-color: grey;
+  padding: 1px;
+  position: absolute;
+  bottom: 0rem;
+  right: 0;
+  left: 0;
+  
+}
+
+footer, p{
   text-align: center;
-  color: white;
-  background-color: black;
-  width: 100%;
-}
-
-i{
-  margin-top: -8rem;
-}
-
-a {
-  color: white;
-  font-size: 15px;
+  /* top: 1px; */
 }
 
 
+ blockquote{
+   border-left: 6px solid rgb(133, 125, 125);
 
-input[type=text], textarea {
-  width: 50%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-  margin-left: 5rem;
-  padding-top: 1rem;
-}
-
-i:hover{
-  text-decoration: none;
-  background-color: rgb(56, 86, 219);
-}
-
+ }
