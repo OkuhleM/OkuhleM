@@ -30,3 +30,4 @@ The callback function we pass is the one that's going to be executed upon every 
 # Conclusion
 
 express along with creating http server works with nodejs.
+The first benefit of using Express.JS for backend development is that you would be able to scale your application quickly. As you know that there is a support of Node.JS, so with the help of addition in nodes and adding extra resources to it, you can quickly scale your application in any manner.
