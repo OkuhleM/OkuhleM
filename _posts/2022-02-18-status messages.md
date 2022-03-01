@@ -1,6 +1,6 @@
 ---
 Layout:
-Title:	"HTTP Status message"
+Title: "HTTP Status message"
 Date:	2022-02-18
 Categories:
 
