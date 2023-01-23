@@ -1,0 +1,128 @@
+ul {
+  display: flex;
+  list-style-type: none;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 55rem;
+  height: 80px;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  margin-right: 50px;
+  text-decoration: none;
+  text-align: left;
+  padding: 35px 0;
+  color: black;
+font-family: "Poppins", sans-serif;
+  /* color: black; */
+}
+
+section {
+  font-family: Arial, Helvetica, sans-serif;
+  transition: background-color 200ms linear;
+  background-color: #B3E5FC;
+  position: fixed;
+  display: inline;
+  font-size: 19px;
+  width: 100%;
+  height: 80px;
+  z-index: 1021;
+  padding-left: 5.5%;
+  padding-right: 5.5%;
+  padding-top: 30px;
+}
+
+#Home{
+    /* background-color: black; */
+    background-attachment: scroll;
+    background-position: center center;
+    line-height: 3;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 23px;
+    padding: 10%;
+    /* color: yellow; */
+    color: peachpuff;
+}
+
+h2{
+  font-family: "Alegreya";
+  font-size: 34px;
+}
+
+h1, .name{
+  font-family: "Pirata One";
+}
+  
+p{
+  font-family: "Poppins",sans-serif;
+}
+
+body{
+  background-color: #282c34;
+  color: white;
+}
+
+.my-image{
+  position: static;
+  z-index: 0;
+  display: block;
+  padding: 0px;
+}
+img {
+  /* max-width: 100%; */
+  width: 340px;
+  vertical-align: middle;
+  display: inline-block;
+  border: 0;
+}
+
+.svg-icon{
+  margin-bottom: 4rem;
+}
+
+#About{
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  grid-column-gap: 4%;
+  grid-row-gap: 4%;
+}
+
+.pic-title{
+  font-family: "Pirata One", sans-serif;
+  font-size: 35px;
+  display: flex;
+}
+
+#Projects{
+
+  padding-top: 8vh;
+
+}
+.title-container{
+  line-height: 2;
+}
+
+i{
+  font-size: 45px;
+  color: rgb(255, 255, 0);
+}
+.fa-css3-alt{
+  color: rgb(11, 174, 244);
+}
+.fa-html5{
+  color: orangered;
+}
