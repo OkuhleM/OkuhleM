@@ -4,15 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="index.css" />
+
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
       crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
     <link
       href="https://fonts.googleapis.com/css?family=Poppins|Pirata+One|Pacifico|Sevilana|Patrick+Hand|Alegreya"
       rel="stylesheet"
@@ -41,12 +40,14 @@
       <h2>Eager to learn and upgrade her knowledge as well as her skills</h2>
       <h2>Wanna see how far I've learnt, take a look at my portfolio</h2>
     </div>
-
-    <h3 class="pic-title">Lindokuhle Mazibuko</h3>
-    <div class="title-container">
-      <p class="profession">Junior Software Developer/Poet</p>
-    </div>
+    
     <div id="About">
+      <!-- <div class="title-container">
+      <h3 class="pic-title">Lindokuhle Mazibuko</h3>
+        <p class="profession">Junior Software Developer/Poet</p>
+      </div> -->
+      <div class="about">
+
       <img
         src="/imgs/Snapchat-659091447.jpg"
         loading="lazy"
@@ -54,36 +55,40 @@
         class="my-image"
       />
       <div class="art-icon">
-        <h1>Who is Lindokuhle?</h1>
-        <p>
-          Lindokuhle has always been fascinated by the world of technology which
-          paved her way to the universe of software development, ever since she
-          was introduced to it. she's been coding for 2 full years now and she
-          has accumulated multiple skills and knowledge. This journey has taught
+        <h1 class="heading">Who is Lindokuhle?</h1>
+        <p class="p1">
+          Lindokuhle has always been fascinated by the world of technology which<br/>
+          paved her way to the universe of software development, ever since she<br/>
+          was introduced to it. she's been coding for 2 full years now and she<br/>
+          has accumulated multiple skills and knowledge. This journey has taught<br/>
           her a lot from coding to problem solving.
         </p>
 
-        <p>
-          Lindokuhle has always loved art, specialising in Poetry and creating
-          colorful designs.She's never been a firm believer to love at first
-          sight but that's exactly what happened between her and Poetry ans
+        <p class="p2">
+          Lindokuhle has always loved art, specialising in Poetry and creating<br/>
+          colorful designs.She's never been a firm believer to love at first<br/>
+          sight but that's exactly what happened between her and Poetry and <br/>
           she'll forever be greatful to her sister for introducing her to
           poetry.
         </p>
 
-        <p>
-          Although she loves poetry she is more passionate about Software
-          development and everything that Technology has to offer, in 5 years
+        <p class="p3">
+          Although she loves poetry she is more passionate about Software<br/>
+          development and everything that Technology has to offer, in 5 years<br/>
           from now she see's herself as a fully qualified Ethical hacker. Dreams
-          do come true you just have to stay focused and lose sight. That's her
+          do come <br/>true you just have to stay focused and lose sight. That's her
           biggest quote in life.
         </p>
       </div>
     </div>
+  </div>
+
 
     <div id="Projects">
-      <h1>Projects</h1>
-      <div class="js-music-player">
+      <h1 class="projects">Projects</h1>
+      <h1 class="container-def">Front-End Projects</h1>
+      <div class="card-container">
+      <div class="card">
         <h3>JS Music Player</h3>
         <p>This app lets you play music, when you click the play button.</p>
         <p>
@@ -92,73 +97,124 @@
           of the song
         </p>
         <hr />
-        <i class="fab fa-js-square"></i>
-        <i class="fab fa-css3-alt"></i>
-        <i class="fab fa-html5"></i>
-        <p>For creating this project I used JavaScript, HTML and CSS</p>
+        <div class="icons">
+          
+          <i class="fab fa-js-square"></i>
+          <i class="fab fa-css3-alt"></i>
+          <i class="fab fa-html5"></i>
+        </div>
+        <div class="project-links">
+          <a href="https://okuhlem.github.io/js-music-player/" target="_blank">Live project</a>
+        </div>
       </div>
-      <div class="random-quote-machine">
+      <div class="card">
         <h3>Random Quote Machine</h3>
         <p>
           A Random quote Generator which retrieves random colours and quotes.
           This generator randomly pulls from my collection of favorite quotes.
-          Random Quote Generator online tool helps to generate a random list of Quotes.
-
+          Random Quote Generator online tool helps to generate a random list of
+          Quotes.
         </p>
-        <hr/>
-        <i class="fab fa-js-square"></i>
-        <i class="fab fa-css3-alt"></i>
-        <i class="fab fa-html5"></i>
-        <p>For creating this project I used JavaScript, HTML and CSS</p>
+        <hr />
+        <div class="icons">
 
-      </div>
-      <div class="markdown-previewer">
-        <h3>markdown Previewer</h3>
-        <p>Markdown is a lightweight markup language with plain text formatting syntax. 
-          It is a simple way to add formatting like headers, bold, bulleted lists, and 
-          so on to a plain text. Markdown uses a simple formatting syntax to accomplish 
-          the same thing that HTML does, but it is simpler than HTML. I created a Markdown 
-          Previewer with Vanilla JavaScript.</p>
-          <hr/>
           <i class="fab fa-js-square"></i>
           <i class="fab fa-css3-alt"></i>
           <i class="fab fa-html5"></i>
-          <p>For creating this project I used JavaScript, HTML and CSS</p>
-  
+        </div>
+        <div class="project-links">
+          <a href="https://okuhlem.github.io/js-music-player/" target="_blank">Live project</a>
+        </div>
       </div>
-      <div class="air-music">
+      <div class="card">
+        <h3>markdown Previewer</h3>
+        <p>
+          Markdown is a lightweight markup language with plain text formatting
+          syntax. It is a simple way to add formatting like headers, bold,
+          bulleted lists, and so on to a plain text. Markdown uses a simple
+          formatting syntax to accomplish the same thing that HTML does, but it
+          is simpler than HTML. I created a Markdown Previewer with Vanilla
+          JavaScript.
+        </p>
+        <hr />
+        <div class="icons">
+
+          <i class="fab fa-js-square"></i>
+          <i class="fab fa-css3-alt"></i>
+          <i class="fab fa-html5"></i>
+        </div>
+        <div class="project-links">
+          <a href="https://okuhlem.github.io/js-music-player/" target="_blank">Live project</a>
+        </div>
+       
+      </div>
+      </div>
+      <h1 class="container-def">FullStack Projects</h1>
+      <div class="card-container">
+
+      <div class="card">
         <h3>Air Music</h3>
-        <p>This App Is simillar to Spotify.
-          In this App you are able to add a song, artist or album.
-          There's also an option of deleting and editing, you can also create a playlist whereby
-          you can add songs of your choice.
-          In this App I used react and it's frameworks.
+        <p>
+          This App Is simillar to Spotify. In this App you are able to add a
+          song, artist or album. There's also an option of deleting and editing,
+          you can also create a playlist whereby you can add songs of your
+          choice. In this App I used react and it's frameworks.
         </p>
-        <hr/>
-        <i class="fab fa-css3-alt"></i>
-    <i class="fab fa-react"></i>
-    <i class="fab fa-node"></i>
-    <i class="fab fa-database"></i>
+        <hr />
+        <div class="icons">
+
+          <i class="fab fa-css3-alt"></i>
+          <i class="fab fa-react"></i>
+          <i class="fab fa-node"></i>
+          <i class="fa-solid fa-database"></i>
+        </div>
+        <div class="project-links">
+          <a href="https://okuhlem.github.io/js-music-player/" target="_blank">Live project</a>
+        </div>
       </div>
-      <div class="library-books">
+      <div class="card">
         <h3>Libriray Books</h3>
-        <p>Open Library is an open, editable library catalog, building towards a web page for every book 
-          ever published. Read and leave a comment. Want to get the best book summaries? I've battle-tested 
-          for a whole week the best books summary apps to find out which one is worth your time.
+        <p>
+          Open Library is an open, editable library catalog, building towards a
+          web page for every book ever published. Read and leave a comment. Want
+          to get the best book summaries? I've battle-tested for a whole week
+          the best books summary apps to find out which one is worth your time.
         </p>
-        <hr/>
-        <i class="fab fa-css3-alt"></i>
-    <i class="fab fa-react"></i>
-    <i class="fab fa-node"></i>
-    <i class="fab fa-database"></i>
+        <hr />
+        <div class="icons">
+
+          <i class="fab fa-css3-alt"></i>
+          <i class="fab fa-react"></i>
+          <i class="fab fa-node"></i>
+          <i class="fa-solid fa-database"></i>
+        </div>
+        <div class="project-links">
+          <a href="https://okuhlem.github.io/js-music-player/" target="_blank">Live project</a>
+        </div>
       </div>
-      <div class="the-big-5">
+      <div class="card">
         <h3>The Big Five</h3>
-        <p>The term “Big Five” originally referred to the difficulty in hunting the lion, leopard, rhino, elephant 
-          and African buffalo. These five large African mammal species were known to be dangerous and it was considered 
-          a feat by trophy hunters to bring them home.</p>
-          Today, however, the expression takes on a gentler form, referring to seeing the Big Five—not shooting them—during wildlife safaris on the African continent.
+        <p>
+          The term “Big Five” originally referred to the difficulty in hunting
+          the lion, leopard, rhino, elephant and African buffalo. These five
+          large African mammal species were known to be dangerous and it was
+          considered a feat by trophy hunters to bring them home.
+        </p>
+       <p> Today, however, the expression takes on a gentler form, referring to
+        seeing the Big Five—not shooting them—during wildlife safaris on the
+        African continent.</p>
+        <hr />
+        <div class="icons">
+
+          <i class="fab fa-js-square"></i>
+          <i class="fab fa-css3-alt"></i>
+          <i class="fab fa-html5"></i>
+        </div>
+        <div class="project-links">
+          <a href="https://okuhlem.github.io/js-music-player/" target="_blank">Live project</a>
+        </div>
       </div>
+    </div>
     </div>
 
     <!-- <footer>

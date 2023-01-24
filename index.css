@@ -6,7 +6,7 @@ ul {
   margin-left: 55rem;
   height: 80px;
 }
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -17,14 +17,14 @@ a {
   text-align: left;
   padding: 35px 0;
   color: black;
-font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   /* color: black; */
 }
 
 section {
   font-family: Arial, Helvetica, sans-serif;
   transition: background-color 200ms linear;
-  background-color: #B3E5FC;
+  background-color: #b3e5fc;
   position: fixed;
   display: inline;
   font-size: 19px;
@@ -36,38 +36,39 @@ section {
   padding-top: 30px;
 }
 
-#Home{
-    /* background-color: black; */
-    background-attachment: scroll;
-    background-position: center center;
-    line-height: 3;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 23px;
-    padding: 10%;
-    /* color: yellow; */
-    color: peachpuff;
+#Home {
+  /* background-color: black; */
+  background-attachment: scroll;
+  background-position: center center;
+  line-height: 3;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 23px;
+  padding: 10%;
+  /* color: yellow; */
+  color: peachpuff;
 }
 
-h2{
-  font-family: "Alegreya";
+h2 {
+  font-family: 'Alegreya';
   font-size: 34px;
 }
 
-h1, .name{
-  font-family: "Pirata One";
-}
-  
-p{
-  font-family: "Poppins",sans-serif;
+h1,
+.name {
+  font-family: 'Pirata One';
 }
 
-body{
+p {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
   background-color: #282c34;
   color: white;
 }
 
-.my-image{
+.my-image {
   position: static;
   z-index: 0;
   display: block;
@@ -81,11 +82,19 @@ img {
   border: 0;
 }
 
-.svg-icon{
+.svg-icon {
   margin-bottom: 4rem;
 }
 
-#About{
+.container-def{
+  font-weight: 400;
+
+  margin-top: 5rem;
+  line-height: 2;
+  font-size: 66px;
+}
+
+.about {
   display: flex;
   margin-right: auto;
   margin-left: auto;
@@ -101,28 +110,67 @@ img {
   grid-row-gap: 4%;
 }
 
-.pic-title{
-  font-family: "Pirata One", sans-serif;
-  font-size: 35px;
-  display: flex;
+.pic-title {
+  font-family: 'Pirata One', sans-serif;
+  font-size: 46px;
 }
 
-#Projects{
+.profession{
+  font-size: 20px;
+}
 
+#Projects {
   padding-top: 8vh;
-
 }
-.title-container{
+.title-container {
   line-height: 2;
+  text-align: center;
+  margin-right: 55rem;
 }
 
-i{
-  font-size: 45px;
-  color: rgb(255, 255, 0);
+.art-icon {
+  font-size: 20px;
+  margin-bottom: 10rem;
+
 }
-.fa-css3-alt{
-  color: rgb(11, 174, 244);
+
+.heading{
+  font-size: 4em;
+  line-height: 3;}
+
+.card-container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 4rem;
+  word-wrap: break-word;
+  text-align: center;
 }
-.fa-html5{
-  color: orangered;
+
+.card {
+  border: 5px solid white;
+  height: 45vh;
+  font-size: 17px;
+  line-height: 2;
+  cursor: pointer;
+}
+
+h3 {
+  font-size: 35px;
+}
+
+.icons {
+  font-size: 50px;
+}
+
+.projects {
+  /* text-align: center; */
+  margin: 3rem auto;
+  font-size: 90px;
+}
+
+.p2,
+.p3 {
+  margin-top: 1rem;
 }
