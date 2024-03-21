@@ -1,0 +1,282 @@
+
+.heading, .Projects, .Skills, .My-interests {
+  font-family: "Pirata One";
+}
+
+.heading{
+    padding: 3rem;
+}
+.Projects, .Skills, .My-interests{
+    font-size: 5rem;
+    text-align: center;
+    padding: 2rem 1rem;
+    letter-spacing: 0.1em;
+}
+
+.introduction{
+  /* background-color: rgb(38, 36, 36); */
+  aspect-ratio: 990/490;
+  padding-left: 2rem;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.fa{
+    font-size: 24px;
+}
+#Skills{
+    background: #ff69b4;
+
+}
+.bar-graph {
+    min-height: 120vh;
+    background: #ff69b4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    height: 675px;
+    width: 600px;
+    color: black;
+}
+
+.content div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.content div .image{
+    background: #efefef;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 5px 10px #999;
+
+}
+
+.content div .image img{
+    height: 60px;
+    transition: transform 0.3s;
+}
+
+.content div .image img:hover{
+    transition: scale(1.05);
+}
+
+.content div .bar{
+    height: 80px;
+    width: 450px;
+    background: #efefef;
+    border-radius: 40px;
+    position: relative;
+    margin-left: 20px;
+    box-shadow: 2px 5px 10px #999;
+    overflow: hidden;
+}
+
+.content div .progress{
+    height: 80px;
+    border-radius: 40px;
+}
+
+.progress {
+    width: 200px;
+    height: 50px;
+    position: relative;
+}
+.progress:after {
+    content: '\A';
+    position: absolute;
+    background:  #ff1493;
+    border-radius: 40px;
+    top: 0; bottom: 0;
+    left: 0; 
+    width: 100%; 
+}
+
+.content div .bar h1{
+    position: absolute;
+    right: 10px;
+    font-weight: 500;
+    font-size: 35px;
+
+}
+
+.content div .bar h2{
+    position: absolute;
+    left: 30px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 25px;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  a{
+    text-decoration: none;
+    color: white;
+  }
+
+  a:hover{
+    color: #ff69b4;
+  }
+
+  .card-container {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+    word-wrap: break-word;
+    text-align: center;
+    margin: auto;
+  }
+  
+  .card {
+    border: 1px solid #ff69b4;
+    height: 45vh;
+    width: 70%;
+    line-height: 2;
+    cursor: pointer;
+    overflow-x: hidden;
+  }
+  
+  #icons{
+    font-size: 35px;
+    margin-top: 1rem;
+    color: #ff69b4;
+  }
+
+  .list{
+    margin-top: 1rem;
+    font-size: 15px;
+  }
+
+  .navigation-bar{
+        margin-left: 60rem;
+        font-size: 25px;
+        line-height: 2;
+  }
+
+  .name{
+    padding-top: 3rem;
+    font-size: 80px;
+    color: #ff69b4;
+    font-weight: 900;
+  }
+
+  .intro{
+    font-size: 25px;
+    margin-bottom: 12rem;
+    padding-bottom: 3rem;
+  }
+
+  p {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  #About-me{
+    margin-top: 5rem;
+    color:#ff1493
+
+  }
+
+  .my-image {
+    position: static;
+    z-index: 0;
+    display: block;
+    padding: 0px;
+    width: 20%;
+    border: 0;
+    margin-left: 1rem;
+  }  
+
+  .about-me-paragraph{
+    font-size: 20px;
+    margin-bottom: 10rem;
+  
+  }
+
+  .about {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    grid-column-gap: 4%;
+    grid-row-gap: 4%;
+  }
+ 
+  body{
+    background: black;
+    color:white
+
+}
+
+.interests{
+    margin: 3rem;
+}
+
+.interests-container {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+    word-wrap: break-word;
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+  }
+  
+  .interests-card {
+    border: 1px solid #ff69b4;
+    height: 45vh;
+    width: 70%;
+    line-height: 2;
+    cursor: pointer;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+  }
+  
+.int-imgs{
+    width: 95%;
+    height: 70%;
+}
+
+
+  
+  .interests-card2 {
+    border: 1px solid #ff69b4;
+    height: 45vh;
+    width: 70%;
+    line-height: 2;
+    cursor: pointer;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+  }
+
+  footer{
+    text-align: center;
+  }
