@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet"> -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pirata+One|Sofia|Courgette ">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pirata+One|Sofia|Lato ">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -13,27 +13,43 @@
 </head>
 <body>
   <div class="introduction">
+    
+    <div class="navigation-bar">
+      <ul>
+        <li><a href="#About-me" class="navigation">About Me</a></li>
+        <li><a href="#Projects" class="navigation">Projects</a></li>
+        <li><a href="#Skills" class="navigation">Skills</a></li>
+        <li><a href="https://drive.google.com/file/d/1kizbxmvVsU04HgEC8CfrxKvqi2_ulOJi/view?usp=sharing" class="navigation" target="_blank">Resume</a></li>
+        <li><a href="#Interests" class="navigation">My Interests</a></li>
+        
+      </ul>
+    </div>
+  </div>
+  <div class="intro">
+    
+    <!-- <hr class="intro-divider"> -->
+
     <h1 class="name">Lindokuhle Mazibuko</h1>
 
-<div class="navigation-bar">
-  <ul>
-    <li><a href="#About-me">About Me</a></li>
-    <li><a href="#Projects">Projects</a></li>
-    <li><a href="#Skills">Skills</a></li>
-    <li><a href="https://drive.google.com/file/d/1kizbxmvVsU04HgEC8CfrxKvqi2_ulOJi/view?usp=sharing" target="_blank">Resume</a></li>
-    <li><a href="#Interests">My Interests</a></li>
-
-  </ul>
-</div>
-  <p class="intro">Welcome to the realm of digital enchantment! I'm Lindokuhle, <br>
-    a software developer fueled by curiosity and driven by innovation</p>
-
-    <i class="fa fa-mobile">&nbsp; &nbsp; &nbsp;  +27 81 324 0479</i><br/>
-    <i class="fa fa-envelope">&nbsp; &nbsp; &nbsp;  lindokuhlea38@gmail.com</i><br/>
-    <i class="fa fa-linkedin-in"><a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" target="_blank">&nbsp; &nbsp; &nbsp;  Lindokuhle</a></i><br>
-    <i class="fa fa-github"><a href="https://github.com/OkuhleM" target="_blank"></a>&nbsp; &nbsp; &nbsp; OkuhleM</i>
-
+    
+    <p class="intro-paragraph">Welcome to the realm of digital enchantment! I'm Lindokuhle,<br> 
+      a software developer fueled by curiosity and driven by innovation</p> <br>
+      <hr class="intro-divider">
+      <br>
+    
   </div>
+  <ul class="list-inline intro-social-buttons" id="social-media">
+    <li>
+        <a href="https://www.instagram.com/okuhle_mazibuko01/" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-instagram fa-fw"></i> <span class="network-name">Instagram</span></a>
+    </li>
+    <li>
+        <a href="https://github.com/OkuhleM" target="_blank" class="btn btn-default btn-lg "><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+    </li>
+    <li>
+        <a href="https://www.linkedin.com/in/lindokuhle-mazibuko-486420201/" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+    </li>
+</ul>
+  
   <div id="About-me" class="about">
     <img src="https://i.pinimg.com/474x/5c/f7/4a/5cf74aefcf2c68c3de586bca92b98d93.jpg"
     loading="lazy"
@@ -264,6 +280,7 @@
 
 <footer id="demo"> OkuhleM &copy;  <span id="copyright">
   <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+  <!-- <p>Email: lindokuhlea38@gmail.com</p> -->
 </span> </footer>
 
   <script src="script.js"></script>
