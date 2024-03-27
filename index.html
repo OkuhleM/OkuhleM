@@ -4,26 +4,41 @@
   <link rel="stylesheet" href="style.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet"> -->
+  <link rel="shortcut icon" type="image/png" href="https://i.pinimg.com/564x/d8/2c/87/d82c87ba8123334b3f76040fd54903fe.jpg"/>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pirata+One|Sofia|Lato ">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      rel="stylesheet"
+    />
   <title>Lindokuhle Mazibuko</title>
 </head>
 <body>
   <div class="introduction">
-    
-    <div class="navigation-bar">
-      <ul>
-        <li><a href="#About-me" class="navigation">About Me</a></li>
-        <li><a href="#Projects" class="navigation">Projects</a></li>
-        <li><a href="#Skills" class="navigation">Skills</a></li>
-        <li><a href="https://drive.google.com/file/d/1kizbxmvVsU04HgEC8CfrxKvqi2_ulOJi/view?usp=sharing" class="navigation" target="_blank">Resume</a></li>
-        <li><a href="#Interests" class="navigation">My Interests</a></li>
-        
-      </ul>
+    <div class="nav-container">
+      <span class="active-box">Lindo</span>
+      <div  class="icon">
+
+      </div>
     </div>
+      <div class="navigation-bar" id="ham-menu">
+       <nav>
+        <ul class="menu">
+          <!-- <li><a href="#" class="active">Menu</a></li> -->
+          <li><a href="#About-me" class="navigation">About Me</a></li>
+          <li><a href="#Projects" class="navigation">Projects</a></li>
+          <li><a href="#Skills" class="navigation">Skills</a></li>
+          <li><a href="https://drive.google.com/file/d/1kizbxmvVsU04HgEC8CfrxKvqi2_ulOJi/view?usp=sharing" class="navigation" target="_blank">Resume</a></li>
+          <li><a href="#Interests" class="navigation">My Interests</a></li>
+          
+        </ul>
+      </nav>
+      </div>
+   
+  
+
   </div>
   <div class="intro">
     
@@ -51,7 +66,7 @@
 </ul>
   
   <div id="About-me" class="about">
-    <img src="https://i.pinimg.com/474x/5c/f7/4a/5cf74aefcf2c68c3de586bca92b98d93.jpg"
+    <img src="https://i.pinimg.com/564x/e0/ff/f0/e0fff022f021599e62f73b48e6323b30.jpg"
     loading="lazy"
     width="50"
     class="my-image">
@@ -84,9 +99,9 @@
           For Lindokuhle, the journey towards her aspirations is marked by her steadfast motto: 
           "Dreams do come true; you just have to stay focused and never lose sight."
 </div>
-<section>
+<!-- <section>
   <img src="" >
-</section>
+</section> -->
   </div>
 
 
@@ -155,6 +170,16 @@
       <span class="progress" id="80"></span>
       <h2>SQL</h2>
       <h1>80%</h1>
+      </div>
+    </div> 
+    <div>
+      <div class="image">
+        <img src="data:image/png;base64,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">
+      </div>
+    <div class="bar">
+      <span class="progress" id="80"></span>
+      <h2>MONGO DB</h2>
+      <h1>70%</h1>
       </div>
     </div> 
   </div>
