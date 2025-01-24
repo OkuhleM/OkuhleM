@@ -1,1 +1,3 @@
-"Hello World! I'm Lindokuhle, your friendly neighborhood developer. My code not only compiles, but it tells jokes too – I call it 'laugh-driven development.' 🤓 When I'm not wrestling with bugs, you can catch me on a caffeine-fueled adventure, typing away like a caffeinated monkey at a keyboard. I believe in clean code, endless coffee, and the occasional existential crisis when CSS misbehaves. So buckle up, because we're about to embark on a coding journey where bugs fear to tread, and laughter is the best syntax error remedy!" 😄🚀
+<div id="header" align="center">
+  <img src="[https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExanlxMDJtcWhqYjdqamRjeTJua3hzd3h0MGdmamRjazJnZmh4Z2k0OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/AHcEGB5nuIALBqKWjp/giphy.gif)" width="100"/>
+</div>
