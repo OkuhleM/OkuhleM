@@ -9,8 +9,8 @@
 <div display="flex">
   <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React"/>
   <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
-  <img src="https://img.shields.io/badge/Gatsby-%23663399.svg?style=for-the-badge&logo=gatsby&logoColor=white](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGGT_pnMHJdps9fGjcDaFSqcfFxO2E7BQk4g&s" alt="MariaDB"/>
-  <img src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR12z9-gRe1cppl-B_7vSC20xW6YzjVUuYIEw&s&logoColor=white" alt="JS"/>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGGT_pnMHJdps9fGjcDaFSqcfFxO2E7BQk4g&s" alt="MariaDB"/>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR12z9-gRe1cppl-B_7vSC20xW6YzjVUuYIEw&s&logoColor=white" alt="JS"/>
   <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS"/>
 </div>
 
@@ -22,7 +22,7 @@
   </a>
  
   <a href="https://www.instagram.com/okuhle_mazibuko01/">
-    <img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlyxw4OjoO5ahtsV_02xWWNsMldELCpYLiig&s" alt="Instagram"/>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlyxw4OjoO5ahtsV_02xWWNsMldELCpYLiig&s" alt="Instagram"/>
   </a>
 </div>
 
