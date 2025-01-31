@@ -2,13 +2,15 @@
   <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDN6MXI5NGcxbmkzbXo2cmRkMjg5b2J3OTgyNGI4aGlnZG9sNzVneSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1MSVKRopegDjYONwdF/giphy.gif" width="400" h/>
 </div>
 
+![<username>'s Stats](https://github-readme-stats.vercel.app/api?username=OkuhleM&theme=vue-dark&show_icons=true&hide_border=true&count_private=true)
+
 **I love working with**
 
 <div display="flex">
   <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React"/>
   <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
   <img src="https://img.shields.io/badge/Gatsby-%23663399.svg?style=for-the-badge&logo=gatsby&logoColor=white](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGGT_pnMHJdps9fGjcDaFSqcfFxO2E7BQk4g&s" alt="MariaDB"/>
-  <img src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white" alt="Next JS"/>
+  <img src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR12z9-gRe1cppl-B_7vSC20xW6YzjVUuYIEw&s&logoColor=white" alt="JS"/>
   <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS"/>
 </div>
 
@@ -26,5 +28,9 @@
 
 ![badges1](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/6n8fc8zw8pawxveffitx.png)
 
+## Tech Stack
+[![My Skills](https://skillicons.dev/icons?i=js,html,css,wasm)](https://skillicons.dev)
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=OkuhleM)](https://git.io/streak-stats)
+### Fun Fact
+
+<h2>I taught myself how to code entirely from scratch using online resources and earned multiple certifications, which kickstarted my career in software development. It’s a journey that showcases my curiosity, determination, and love for learning new things!</h2>h2>
