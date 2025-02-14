@@ -1,5 +1,5 @@
 <div id="header" align="center">
-  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDN6MXI5NGcxbmkzbXo2cmRkMjg5b2J3OTgyNGI4aGlnZG9sNzVneSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1MSVKRopegDjYONwdF/giphy.gif" width="400" h/>
+  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDN6MXI5NGcxbmkzbXo2cmRkMjg5b2J3OTgyNGI4aGlnZG9sNzVneSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1MSVKRopegDjYONwdF/giphy.gif" width="900" h/>
 </div>
 
 - 🔭 I am currently working on [My portfolio](#)
@@ -15,7 +15,7 @@
 
 - 📄 Wanna know me better, here's my portfolio [https://okuhlem.github.io/OkuhleM/]
 
-- ⚡ Fun fact ##JavaScript was created in just 10 days by Brendan Eich in 1995! It was originally called "Mocha," then "LiveScript," before finally being named JavaScript to ride on the popularity of Java (even though they’re not directly related).##
+- ⚡ Fun fact **JavaScript was created in just 10 days by Brendan Eich in 1995! It was originally called "Mocha," then "LiveScript," before finally being named JavaScript to ride on the popularity of Java (even though they’re not directly related).**
 
 **I love working with**
 
@@ -35,6 +35,23 @@
   </a>
  
 </div>
+
+<h3 align="left">Languages and Tools:</h3>
+
+<!-- <img align="left" alt="Spring" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" /> -->
+<!-- <img align="left" alt="TypeScript" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg" /> -->
+
+<img align="left" alt="Git" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
+<img align="left" alt="Linux" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" />
+<img align="left" alt="HTML" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" />
+<img align="left" alt="CSS" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" />
+<img align="left" alt="JavaScript" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
+<img align="left" alt="React" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+<img align="left" alt="NodeJS" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
+<img align="left" alt="GitHub" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+<br />
+
+
 
 ![badges1](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/6n8fc8zw8pawxveffitx.png)
 
