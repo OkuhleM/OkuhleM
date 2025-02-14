@@ -2,6 +2,20 @@
   <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDN6MXI5NGcxbmkzbXo2cmRkMjg5b2J3OTgyNGI4aGlnZG9sNzVneSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1MSVKRopegDjYONwdF/giphy.gif" width="400" h/>
 </div>
 
+- 🔭 I am currently working on [My portfolio](#)
+
+- 🌱 I’m currently learning **Python, Java and GraphQl**
+
+- 👯 I’m eager to contribute to projects that create meaningful value and drive positive outcomes.
+
+
+- 👨‍💻 You can find my projects at [https://github.com/OkuhleM](https://github.com/OkuhleM/)
+
+- 📫 You can contact me at **okuhlemazibuko@hotmil.com**
+
+- 📄 Wanna know me better, here's my portfolio [https://okuhlem.github.io/OkuhleM/]
+
+- ⚡ Fun fact ##JavaScript was created in just 10 days by Brendan Eich in 1995! It was originally called "Mocha," then "LiveScript," before finally being named JavaScript to ride on the popularity of Java (even though they’re not directly related).##
 
 **I love working with**
 
