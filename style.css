@@ -97,13 +97,12 @@
 .fa {
   font-size: 24px;
 }
-#Skills {
+/* #Skills {
   background: #ff69b4;
   color: white;
-}
+} */
 .bar-graph {
   color: white;
-  background: #ff69b4;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -120,17 +119,20 @@
 }
 .content div .image {
   background: #efefef;
-  height: 100px;
-  width: 100px;
+  height: 60px;
+  width: 60px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   box-shadow: 2px 5px 10px #999;
+  margin: auto 3rem;
+  
+  
 }
 
 .content div .image img {
-  height: 60px;
+  height: 40px;
   transition: transform 0.3s;
 }
 
@@ -139,8 +141,8 @@
 }
 
 .content div .bar {
-  height: 40px;
-  width: 500px;
+  height: 30px;
+  width: 700px;
   background: #efefef;
   border-radius: 40px;
   position: relative;
@@ -150,7 +152,7 @@
 }
 
 .content div .progress {
-  height: 40px;
+  height: 30px;
 }
 
 .progress {
