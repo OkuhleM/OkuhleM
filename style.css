@@ -6,6 +6,45 @@
 
 }
 
+.fab{
+  font-size: 40px;
+  color: #ff69b4;
+  padding: 15px;
+}
+
+.fa-linkedin:hover{
+  color: #0077B5;
+  box-shadow: 3px 1px 3px #0077B5;
+}
+
+.fa-github:hover{
+  color: #fff;
+  box-shadow: 3px 2px 3px #fff;
+}
+
+.fa-instagram:hover{
+ color: #8F00FF;
+ box-shadow: 3px 2px 3px #8F00FF;
+ 
+}
+
+.fa-pinterest:hover{
+  color: #E60023;
+  box-shadow: 3px 2px 3px #E60023;
+  background-color: #fff;
+
+}
+
+.me {
+  position: static;
+  /* z-index: 0; */
+  display: block;
+  padding: 0px;
+  width: 70%;
+  border: 0;
+  margin-left: 100px;
+}
+
 .heading {
   padding: 3rem;
   margin-top: 5rem;
@@ -44,9 +83,10 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  grid-column-gap: 4%;
-  grid-row-gap: 4%;
-}
+ border: 2px solid white;
+ width: 90%;
+ margin-top: 3rem;
+} 
 
 * {
   margin: 0;
@@ -224,24 +264,10 @@ p {
   font-family: "Poppins", sans-serif;
 }
 
-#About-me {
-  margin: 0;
-  color: #ff1493;
-}
-
-.my-image {
-  position: static;
-  /* z-index: 0; */
-  display: block;
-  padding: 0px;
-  width: 100%;
-  border: 0;
-  margin-left: 1rem;
-}
-
 .about-me-paragraph {
-  font-size: 20px;
+  font-size: 15px;
   margin-bottom: 10rem;
+  /* margin-right: 25rem; */
 }
 
 body {
@@ -305,41 +331,7 @@ footer {
   text-align: center;
 }
 
-.btn:hover {
-  color: #fff;
-  border: 2px outset rgba(0, 0, 0, 0.9);
-  background: #ff69b4;
-  transform: scale(1.1);
-  transition: 0.2s;
-  text-shadow: 4px 1px 4px rgba(0, 0, 0, 20);
-  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
-  letter-spacing: 2px;
-}
-.btn:focus{
-  outline: none;
-}
 
-/* ul.intro-social-buttons > li {
-  float: left;
-  height: 3vh;
-  padding: 15px;
-  margin: auto;
-} */
-
-.btn {
-  color: rgba(0, 0, 0, 0.9);
-  border: 1px outset rgba(0, 0, 0, 0.2);
-  background: silver;
-  padding: 1rem 3rem;
-  margin-left: 9rem;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
-  box-shadow: 0.5px 0.5px 0.5px #000;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  transition: 0.4s;
-  border-radius: 5px;
-}
 
 .active-box,
 .active {
@@ -349,11 +341,10 @@ footer {
   display: none;
 }
 
-.social-contaier{
+/* .social-contaier{
   display: flex;
   align-items: center;
-  /* justify-content: center; */
-}
+} */
 
 @media (max-width: 768px) {
   /* #Skills {
