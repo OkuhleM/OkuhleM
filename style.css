@@ -1,8 +1,41 @@
-.heading,
-.Projects,
-.Skills,
-.My-interests {
-  font-family: "Pirata One";
+
+.skills{
+  /* font-family: "Pirata One"; */
+  font-size: 5rem;
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.skill span {
+	float: right;
+}
+
+.skill div {
+	width: 100%;
+	float: left;
+	margin-top: 5px;
+	background: #e7e7e7;
+	border-radius: 10px;
+}
+
+.skill div span {
+	background: #ffbf35;
+	height: 5px;
+	float: left;
+}
+
+div[role="progressbar"] {
+	color: #ffbf35;
+	margin-left: 100px;
+	margin-bottom: 20px;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	place-items: center;
+	display: grid;
+	--pgPercentage: var(--value);
+	background: radial-gradient(closest-side, black 80%, transparent 0 99.9%, black 0),
+		conic-gradient(#ffbf35 calc(var(--pgPercentage) * 1%), #ffe6af 0);
 
 }
 
@@ -34,10 +67,12 @@
   background-color: #fff;
 
 }
+.skill-container{
+margin-left: 12px;
+}
 
 .me {
   position: static;
-  /* z-index: 0; */
   display: block;
   padding: 0px;
   width: 70%;
@@ -45,12 +80,15 @@
   margin-left: 100px;
 }
 
+.graph{
+  margin-top: 8rem;
+}
+
 .heading {
   padding: 3rem;
   margin-top: 5rem;
 }
 
-.Skills,
 .Projects,
 .My-interests {
   color: white;
@@ -60,13 +98,13 @@
   letter-spacing: 0.1em;
 }
 
-.art-img{
-  margin-left: 22rem;
-}
+.width-50 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  }
 
 .logo{
   font-size: 40px;
-  /* padding: 25px; */
   margin: 0 3rem;
   font-family: 'Pirata One';
 
@@ -97,94 +135,57 @@
 .fa {
   font-size: 24px;
 }
-/* #Skills {
-  background: #ff69b4;
-  color: white;
-} */
-.bar-graph {
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.content {
-  color: black;
-}
-
-.content div {
-  display: flex;
-  align-items: center;
-  margin-bottom: 5px;
-}
-.content div .image {
-  background: #efefef;
-  height: 60px;
-  width: 60px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 2px 5px 10px #999;
-  margin: auto 3rem;
-  
+.circle-skill{
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 2rem;
+  padding: 2rem;
   
 }
 
-.content div .image img {
-  height: 40px;
-  transition: transform 0.3s;
+.heading-text, .techstack{
+  margin-top: 2rem;
+  font-size: 5rem;
+  text-align: center;
 }
 
-.content div .image img:hover {
-  transition: scale(1.05);
+.edu-exp {
+	/* padding: 10px 0px; */
+	width: 90%;
+	margin-top: 5rem;
+  /* margin-right: 3px;  */
+  margin-left: 55px;
+	display: flex;
+  gap: 2rem;
+align-items: center;
+  justify-content: center;
+  
+}
+.experience-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+	width: 80%;
+	padding: 30px 10px;
+   background: #3b3b3b;
+  border-radius: 10px;
+  justify-content: center;
+  
 }
 
-.content div .bar {
-  height: 30px;
-  width: 700px;
-  background: #efefef;
-  border-radius: 40px;
-  position: relative;
-  margin-left: 20px;
-  box-shadow: 2px 5px 10px #999;
-  overflow: hidden;
-}
+.experience-content h2 {
 
-.content div .progress {
-  height: 30px;
+	font-weight: 600;
+	margin-bottom: 15px;
+	font-size: 25px;
 }
-
-.progress {
-  width: 200px;
-  height: 50px;
-  position: relative;
+.experience-content h3 {
+	color: #ff69b4;
+	font-weight: 500;
+	margin-bottom: 2px;
+	font-size: 17px;
 }
-.progress:after {
-  content: "\A";
-  position: absolute;
-  background: #ff1493;
-  border-radius: 40px;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-}
-
-.content div .bar h1 {
-  position: absolute;
-  right: 10px;
-  font-weight: 500;
-  font-size: 20px;   
-  color: rgb(53, 206, 33);
-}
-
-.content div .bar h2 {
-  position: absolute;
-  left: 30px;
-  color: #fff;
-  font-weight: 600;
-  font-size: 25px;
+.experience-content p {
+	font-size: 15px;
 }
 
 ul {
@@ -269,7 +270,6 @@ p {
 .about-me-paragraph {
   font-size: 15px;
   margin-bottom: 10rem;
-  /* margin-right: 25rem; */
 }
 
 body {
@@ -279,17 +279,6 @@ body {
 
 .interests {
   margin: 3rem;
-}
-
-.interests-container {
-  display: grid;
-  justify-items: center;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 15px;
-  word-wrap: break-word;
-  text-align: center;
-  margin: auto;
-  padding: 1rem;
 }
 
 .interests-card {
@@ -333,8 +322,6 @@ footer {
   text-align: center;
 }
 
-
-
 .active-box,
 .active {
   display: none;
@@ -343,15 +330,10 @@ footer {
   display: none;
 }
 
-/* .social-contaier{
-  display: flex;
-  align-items: center;
-} */
+
 
 @media (max-width: 768px) {
-  /* #Skills {
-    width: auto;
-  } */
+
 
 .art-img{
   display: none;
@@ -554,9 +536,7 @@ footer {
   .introduction{
     width: 100%;
   }
-  #Skills {
-    width: 131%;
-}
+
 .card {
   margin: 2rem;
   /* height: 50vh; */
