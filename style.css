@@ -160,7 +160,10 @@ a {
   font-size: 25px;
   color: #ff69b4;
 }
-
+form{
+  display: flex;
+  flex-direction: column;
+}
 .project-img {
   margin-top: 2rem;
   width: 50%;
@@ -174,6 +177,7 @@ a {
   height: 80%;
   box-shadow: 2px 1px 2px #fff;
 }
+
 .project-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -237,12 +241,14 @@ a {
 .experience-content p {
   font-size: 15px;
 }
-
-ul {
-  display: flex;
+li{
   list-style: none;
-  margin: 0;
-  padding: 0;
+  display: inline-block;
+}
+
+li a{
+ 
+  margin-right: 25px;
 }
 .contacts {
   background-color: #fff;
@@ -340,26 +346,24 @@ ul li a {
   margin-top: 1rem;
   font-size: 15px;
 }
+
 .navigation-bar {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-family: sans-serif;
+
   margin: 2rem auto;
   
 }
 
-nav{
-  width: 100%;
-  padding: 0px 30px;
-  margin: auto;
+.navbar {
   display: flex;
+  /* font-weight: 500; */
   align-items: center;
   justify-content: space-between;
-
-}
-
-.navbar {
-  display: inline-flex;
-  font-weight: 500;
-  padding: 9px 15px;
   font-size: 25px;
   font-family: sans-serif;
 }
