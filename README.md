@@ -54,7 +54,7 @@
 
 ## Tech Stack
 
-[![My Skills](https://skillicons.dev/icons?i=aws,javascript,azure,react,git,redux,html,css,bootstrap,typescript,mysql,postgresql,mongodb,visualstudio,ubuntu,windows,node,jira,express,&perline=3)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=aws,javascript,azure,react,git,redux,html,css,bootstrap,typescript,mysql,postgresql,mongodb,visualstudio,ubuntu,windows,nodejs,jquery,express,vscode,npm,yarn&perline=3)](https://skillicons.dev)
 
 
 ### Fun Fact
