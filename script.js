@@ -1,43 +1,18 @@
-const bars = document.querySelectorAll('.progress');
+  const menuToggle = document.getElementById("menu-toggle");
+  const navLinks = document.querySelector(".nav-links");
 
-const convertToArray = Array.from(bars);
+  menuToggle.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+    menuToggle.querySelector("i").classList.toggle("fa-times");
+  });
 
-
-convertToArray.forEach(item => {
-    let value = item.id;
-    let counter = 0;
-    let interval = setInterval(()=>{
-        item.style.width = counter + "%";
-
-        if(counter == value){
-            clearInterval(interval);
-
-        }
-        counter++;
-    },8);
-});
-
-function humburgerMenu() {
-    var x = document.getElementById("ham-menu");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
-    
-  }
-
-  const menu = document.querySelector(".icon");
-const navBar = document.querySelector(".navigation-bar");
-window.addEventListener("scroll", () => {
-  const navBar = document.querySelector(".introduction");
-  navBar.classList.toggle("sticky", window.scrollY > 0);
-});
-menu.addEventListener("click", () => {
-  menu.classList.toggle("active");
-  navBar.classList.toggle("active");
-});
-
+  // Optional: close menu when clicking a link
+  document.querySelectorAll(".nav-links a").forEach(link => {
+    link.addEventListener("click", () => {
+      navLinks.classList.remove("active");
+      menuToggle.querySelector("i").classList.remove("fa-times");
+    });
+  });
 //Hero Section ;)
 
 const phrases = [
