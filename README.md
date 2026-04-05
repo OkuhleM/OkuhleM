@@ -21,7 +21,6 @@
   <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS"/>
 </div>
 
-![<username>'s Stats](https://github-readme-stats.vercel.app/api?username=OkuhleM&theme=vue-dark&show_icons=true&hide_border=true&count_private=true)
 
 ### 📫 How to reach me
 
