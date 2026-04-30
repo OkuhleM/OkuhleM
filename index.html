@@ -1,265 +1,404 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="./Styling/hero.css">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" type="image/png" href="https://i.pinimg.com/564x/d8/2c/87/d82c87ba8123334b3f76040fd54903fe.jpg"/>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pirata+One|Sofia|Lato|Roboto|Pirata+One ">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./Styling/hero.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="https://i.pinimg.com/564x/d8/2c/87/d82c87ba8123334b3f76040fd54903fe.jpg"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Pirata+One|Sofia|Lato|Roboto|Pirata+One "
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
 
-  <link
+    <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
       rel="stylesheet"
     />
-  <title>Lindokuhle Mazibuko</title>
-</head>
-<body>
+    <title>Lindokuhle Mazibuko</title>
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="nav-container">
+        <h1 class="logo">
+          <a href="#home">Okuhle<span>M</span></a>
+        </h1>
 
-<header class="navbar">
-  <div class="nav-container">
-    <h1 class="logo"><a href="#home">Okuhle<span>M</span></a></h1>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
 
-    <nav>
-      <ul class="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <div class="menu-toggle" id="menu-toggle">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </header>
+
+    <section class="hero-container" id="home">
+      <div class="hero-content">
+        <h1 class="hero-title">Hey, I’m <span>OkuhleM</span> 👋</h1>
+        <h2 class="hero-subtitle" id="typewriter"></h2>
+        <p class="hero-desc">
+          I’m a Junior Software Developer passionate about creating smooth,
+          responsive, and meaningful web experiences that tell a story.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn-primary">See My Work</a>
+          <a href="#contact" class="btn-secondary">Let’s Connect</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="social-contaier"></div>
+
+    <section class="about-section" id="about">
+      <div class="about-container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              Hey there 👋 I’m <span>Okuhle Mazibuko</span> a Junior Software
+              Developer with a love for clean code, soft aesthetics, and solving
+              complex problems in simple, beautiful ways.
+            </p>
+
+            <p>
+              I started my coding journey through bootcamps and turned curiosity
+              into a career. From crafting responsive front-ends to building
+              solid back-ends with Node.js and MySQL, I enjoy turning ideas into
+              full-fledged web experiences.
+            </p>
+
+            <p>
+              When I’m not coding, I’m probably lost in poetry, music, or
+              dreaming up new ways to blend creativity with technology. My goal?
+              To build apps that feel like art functional, human, and heartfelt.
+            </p>
+
+            <a href="#projects" class="btn-primary about-btn">View My Work</a>
+          </div>
+
+          <div class="about-image">
+            <img
+              src="https://i.pinimg.com/564x/d8/2c/87/d82c87ba8123334b3f76040fd54903fe.jpg"
+              alt="Okuhle Mazibuko"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="fun-facts">
+      <p>✨ Fun Facts:</p>
+      <ul>
+        <li>I learned to code through late-night coffee and chaos ☕</li>
+        <li>I’m obsessed with pink and pastel aesthetics 💅</li>
+        <li>I believe every app deserves a soul 💻❤️</li>
       </ul>
-    </nav>
-
-    <div class="menu-toggle" id="menu-toggle">
-      <i class="fas fa-bars"></i>
     </div>
-  </div>
-</header>
 
- <section class="hero-container" id="home">
-  <div class="hero-content">
-    <h1 class="hero-title">Hey, I’m <span>OkuhleM</span> 👋</h1>
-    <h2 class="hero-subtitle" id="typewriter"></h2>
-    <p class="hero-desc">
-      I’m a Junior Software Developer passionate about creating smooth,
-      responsive, and meaningful web experiences that tell a story.
-    </p>
-    <div class="hero-buttons">
-      <a href="#projects" class="btn-primary">See My Work</a>
-      <a href="#contact" class="btn-secondary">Let’s Connect</a>
-    </div>
-  </div>
-</section>
+    <section class="skills-section" id="skills">
+      <div class="skills-container">
+        <h2 class="section-title">My Skills</h2>
 
-  <div class="social-contaier">
- 
-</div>
-  
- 
-<section class="about-section" id="about">
-  <div class="about-container">
-    <h2 class="section-title">About Me</h2>
-    <div class="about-content">
-      <div class="about-text">
-        <p>
-          Hey there 👋 I’m <span>Okuhle Mazibuko</span> a Junior Software
-          Developer with a love for clean code, soft aesthetics, and solving
-          complex problems in simple, beautiful ways.
-        </p>
+        <div class="skills-grid">
+          <div class="skill">
+            <h3>Frontend</h3>
+            <ul>
+              <li>
+                <span>HTML</span>
+                <div class="bar">
+                  <div class="fill" style="width: 95%"></div>
+                </div>
+              </li>
+              <li>
+                <span>CSS</span>
+                <div class="bar">
+                  <div class="fill" style="width: 90%"></div>
+                </div>
+              </li>
+              <li>
+                <span>JavaScript</span>
+                <div class="bar">
+                  <div class="fill" style="width: 88%"></div>
+                </div>
+              </li>
+              <li>
+                <span>React</span>
+                <div class="bar">
+                  <div class="fill" style="width: 85%"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
 
-        <p>
-          I started my coding journey through bootcamps and turned curiosity
-          into a career. From crafting responsive front-ends to building solid
-          back-ends with Node.js and MySQL, I enjoy turning ideas into
-          full-fledged web experiences.
-        </p>
+          <div class="skill">
+            <h3>Backend</h3>
+            <ul>
+              <li>
+                <span>Node.js</span>
+                <div class="bar">
+                  <div class="fill" style="width: 80%"></div>
+                </div>
+              </li>
+              <li>
+                <span>Express.js</span>
+                <div class="bar">
+                  <div class="fill" style="width: 78%"></div>
+                </div>
+              </li>
+              <li>
+                <span>MySQL</span>
+                <div class="bar">
+                  <div class="fill" style="width: 82%"></div>
+                </div>
+              </li>
+              <li>
+                <span>SQL Triggers</span>
+                <div class="bar">
+                  <div class="fill" style="width: 75%"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
 
-        <p>
-          When I’m not coding, I’m probably lost in poetry, music, or dreaming
-          up new ways to blend creativity with technology. My goal? To build
-          apps that feel like art functional, human, and heartfelt.
-        </p>
-
-        <a href="#projects" class="btn-primary about-btn">View My Work</a>
-      </div>
-
-      <div class="about-image">
-        <img src="https://i.pinimg.com/564x/d8/2c/87/d82c87ba8123334b3f76040fd54903fe.jpg" alt="Okuhle Mazibuko" />
-      </div>
-    </div>
-  </div>
-</section>
-
-<div class="fun-facts">
-  <p>✨ Fun Facts:</p>
-  <ul>
-    <li>I learned to code through late-night coffee and chaos ☕</li>
-    <li>I’m obsessed with pink and pastel aesthetics 💅</li>
-    <li>I believe every app deserves a soul 💻❤️</li>
-  </ul>
-</div>
-
-<section class="skills-section" id="skills">
-  <div class="skills-container">
-    <h2 class="section-title">My Skills</h2>
-
-    <div class="skills-grid">
-      <div class="skill">
-        <h3>Frontend</h3>
-        <ul>
-          <li><span>HTML</span><div class="bar"><div class="fill" style="width: 95%"></div></div></li>
-          <li><span>CSS</span><div class="bar"><div class="fill" style="width: 90%"></div></div></li>
-          <li><span>JavaScript</span><div class="bar"><div class="fill" style="width: 88%"></div></div></li>
-          <li><span>React</span><div class="bar"><div class="fill" style="width: 85%"></div></div></li>
-        </ul>
-      </div>
-
-      <div class="skill">
-        <h3>Backend</h3>
-        <ul>
-          <li><span>Node.js</span><div class="bar"><div class="fill" style="width: 80%"></div></div></li>
-          <li><span>Express.js</span><div class="bar"><div class="fill" style="width: 78%"></div></div></li>
-          <li><span>MySQL</span><div class="bar"><div class="fill" style="width: 82%"></div></div></li>
-          <li><span>SQL Triggers</span><div class="bar"><div class="fill" style="width: 75%"></div></div></li>
-        </ul>
-      </div>
-
-      <div class="skill">
-        <h3>Other Tools</h3>
-        <ul>
-          <li><span>Git & GitHub</span><div class="bar"><div class="fill" style="width: 85%"></div></div></li>
-          <li><span>REST APIs</span><div class="bar"><div class="fill" style="width: 80%"></div></div></li>
-          <li><span>Figma</span><div class="bar"><div class="fill" style="width: 70%"></div></div></li>
-          <li><span>Redux</span><div class="bar"><div class="fill" style="width: 75%"></div></div></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</section>
- 
-
-
-<section class="projects-section" id="projects">
-  <div class="projects-container">
-    <h2 class="section-title">My Work</h2>
-    <p class="projects-intro">
-      A glimpse into what I’ve been building — blending logic and a little bit of art ✨
-    </p>
-
-    <div class="projects-grid">
-      <div class="project-card">
-        <img src="/imgs/HSM.png" alt="Project 1 Screenshot">
-        <div class="project-content">
-          <h3>Hospital Management System</h3>
-          <p>
-            A full-stack app built with React, Node.js, Express, and MySQL for managing hospital staff, patients, and billing.
-          </p>
-          <a href="https://github.com/OkuhleM/hospital-system" target="_blank" class="btn">View Project</a>
+          <div class="skill">
+            <h3>Other Tools</h3>
+            <ul>
+              <li>
+                <span>Git & GitHub</span>
+                <div class="bar">
+                  <div class="fill" style="width: 85%"></div>
+                </div>
+              </li>
+              <li>
+                <span>REST APIs</span>
+                <div class="bar">
+                  <div class="fill" style="width: 80%"></div>
+                </div>
+              </li>
+              <li>
+                <span>Figma</span>
+                <div class="bar">
+                  <div class="fill" style="width: 70%"></div>
+                </div>
+              </li>
+              <li>
+                <span>Redux</span>
+                <div class="bar">
+                  <div class="fill" style="width: 75%"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
+    </section>
 
-      <div class="project-card">
-        <img src="imgs/Learnership-find.png" alt="Project 2 Screenshot">
-        <div class="project-content">
-          <h3>Learnership Finder</h3>
-          <p>
-            A web app that matches students with available learnerships, apprenticeships, and courses based on their results.
-          </p>
-          <a href="https://github.com/OkuhleM/learnership-finder" target="_blank" class="btn">View Project</a>
+    <section class="projects-section" id="projects">
+      <div class="projects-container">
+        <h2 class="section-title">My Work</h2>
+        <p class="projects-intro">
+          A glimpse into what I’ve been building — blending logic and a little
+          bit of art ✨
+        </p>
+
+        <div class="projects-grid">
+          <div class="project-card">
+            <img src="/imgs/HSM.png" alt="Project 1 Screenshot" />
+            <div class="project-content">
+              <h3>Weather Forecast</h3>
+              <p>
+                A responsive weather intelligence dashboard that consumes
+                real-time API data and dynamically renders weather conditions
+                with a focus on performance, UX, and clean component
+                architecture.
+              </p>
+              <a
+                href="https://okuhlem.github.io/Weather-App/"
+                target="_blank"
+                class="btn"
+                >View Project</a
+              >
+            </div>
+          </div>
+
+          <div class="project-card">
+            <img src="imgs/Learnership-find.png" alt="Project 2 Screenshot" />
+            <div class="project-content">
+              <h3>Learnership Finder</h3>
+              <p>
+                A web app that matches students with available learnerships,
+                apprenticeships, and courses based on their results.
+              </p>
+              <a
+                href="https://github.com/OkuhleM/learnership-finder"
+                target="_blank"
+                class="btn"
+                >View Project</a
+              >
+            </div>
+          </div>
+
+          <div class="project-card">
+            <img src="imgs/ZaynBanner.jpg" alt="Project 3 Screenshot" />
+            <div class="project-content">
+              <h3>ZaynFlix</h3>
+              <p>
+                A fan-made movie web app with a smooth loader animation,
+                navigation, and footer signature, inspired by Zayn 😌🎬
+              </p>
+              <a
+                href="https://okuhlem.github.io/Netflix-Clone/"
+                target="_blank"
+                class="btn"
+                >Live Demo</a
+              >
+            </div>
+          </div>
         </div>
       </div>
+    </section>
 
-      <div class="project-card">
-        <img src="imgs/ZaynBanner.jpg" alt="Project 3 Screenshot">
-        <div class="project-content">
-          <h3>ZaynFlix</h3>
-          <p>
-            A fan-made movie web app with a smooth loader animation, navigation, and footer signature, inspired by Zayn 😌🎬
-          </p>
-          <a href="https://okuhlem.github.io/Netflix-Clone/" target="_blank" class="btn">Live Demo</a>
+    <section class="contact-section" id="contact">
+      <div class="contact-container">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="contact-intro">
+          Whether it’s about collaboration, opportunities, or just a good tech
+          chat, I’d love to hear from you 💫
+        </p>
+
+        <form class="contact-form" id="contact-form">
+          <div class="form-group">
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Your Name"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Your Email"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              placeholder="Your Message"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+
+        <div class="contact-links">
+          <p>Or find me on:</p>
+          <div class="social-icons">
+            <a href="https://github.com/OkuhleM" target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/lindokuhle-mazibuko-486420201/"
+              target="_blank"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="mailto:lindokuhlea38@gmail.com"
+              ><i class="fas fa-envelope"></i
+            ></a>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
+    </section>
 
+    <footer class="footer-section" id="footer">
+      <div class="footer-container">
+        <h2 class="section-title">Résumé</h2>
+        <p class="footer-text">
+          Download my résumé to explore my journey, skills, and the projects
+          I’ve poured my heart into 💼
+        </p>
 
-<section class="contact-section" id="contact">
-  <div class="contact-container">
-    <h2 class="section-title">Get In Touch</h2>
-    <p class="contact-intro">
-      Whether it’s about collaboration, opportunities, or just a good tech chat, I’d love to hear from you 💫
-    </p>
+        <a
+          href="resume/Resume of Lindokuhle Mazibuko1.pdf"
+          download
+          class="resume-btn"
+        >
+          <i class="fas fa-file-download"></i> Download Résumé
+        </a>
 
-    <form class="contact-form" id="contact-form">
-      <div class="form-group">
-        <input type="text" id="name" name="name" placeholder="Your Name" required />
+        <div class="footer-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+
+        <div class="footer-socials">
+          <a href="https://github.com/OkuhleM" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/lindokuhle-mazibuko-486420201/"
+            target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="mailto:lindokuhlea38@gmail.com"
+            ><i class="fas fa-envelope"></i
+          ></a>
+        </div>
+
+        <p class="signature" id="demo">
+          Designed & Built with 💖 by <span>OkuhleM</span>
+          <span id="copyright">
+            <script>
+              document
+                .getElementById("copyright")
+                .appendChild(document.createTextNode(new Date().getFullYear()));
+            </script>
+          </span>
+        </p>
       </div>
-      <div class="form-group">
-        <input type="email" id="email" name="email" placeholder="Your Email" required />
-      </div>
-      <div class="form-group">
-        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
-      </div>
-      <button type="submit" class="btn">Send Message</button>
-    </form>
+    </footer>
 
-    <div class="contact-links">
-      <p>Or find me on:</p>
-      <div class="social-icons">
-        <a href="https://github.com/OkuhleM" target="_blank"><i class="fab fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/lindokuhle-mazibuko-486420201/"" target="_blank"><i class="fab fa-linkedin"></i></a>
-        <a href="mailto:lindokuhlea38@gmail.com"><i class="fas fa-envelope"></i></a>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-<footer class="footer-section" id="footer">
-  <div class="footer-container">
-    <h2 class="section-title">Résumé</h2>
-    <p class="footer-text">
-      Download my résumé to explore my journey, skills, and the projects I’ve poured my heart into 💼
-    </p>
-
-    <a href="resume/Resume of Lindokuhle Mazibuko1.pdf" download class="resume-btn">
-      <i class="fas fa-file-download"></i> Download Résumé
-    </a>
-
-    <div class="footer-links">
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </div>
-
-    <div class="footer-socials">
-      <a href="https://github.com/OkuhleM" target="_blank"><i class="fab fa-github"></i></a>
-      <a href="https://www.linkedin.com/in/lindokuhle-mazibuko-486420201/" target="_blank"><i class="fab fa-linkedin"></i></a>
-      <a href="mailto:lindokuhlea38@gmail.com"><i class="fas fa-envelope"></i></a>
-    </div>
-
-    <p class="signature" id="demo">
-      Designed & Built with 💖 by <span>OkuhleM</span>
-      <span id="copyright">
-      <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
-      </span>
-    </p>
-  </div>
-</footer>
-
-
-<!-- <footer id="demo"> OkuhleM &copy;  <span id="copyright">
+    <!-- <footer id="demo"> OkuhleM &copy;  <span id="copyright">
   <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
 </span> </footer> -->
 
-  <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
-
